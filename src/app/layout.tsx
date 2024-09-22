@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { League_Spartan } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/Header";
 
 const leagueSpartan = League_Spartan({
     weight: ["400", "700"],
@@ -23,6 +24,7 @@ export default function RootLayout({
       <body
         className={`${leagueSpartan.className} antialiased`}
       >
+        <Header />
         {children}
       </body>
     </html>
