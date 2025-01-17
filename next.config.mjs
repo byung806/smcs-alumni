@@ -4,7 +4,7 @@
 // export default nextConfig;
 
 const nextConfig = {
-    basePath: "/phs-alumni-site",
+    basePath: "/smcs-alumni",
     output: "export",
     reactStrictMode: true,
 };
