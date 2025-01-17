@@ -4,8 +4,10 @@
 // export default nextConfig;
 
 const nextConfig = {
-    basePath: "/smcs-alumni",
-    output: "export",
+    basePath: "",
+    output: "export",  // <=== enables static exports
     reactStrictMode: true,
+    images: { unoptimized: true }
 };
+
 export default nextConfig;
