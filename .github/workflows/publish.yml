@@ -36,7 +36,7 @@ jobs:
       #   run: test -d ./dist
 
       - name: Debug directory contents
-        run: ls -al ./dist
+        run: ls -al
 
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
