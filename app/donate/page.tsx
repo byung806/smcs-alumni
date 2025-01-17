@@ -1,7 +1,7 @@
-import Finances from "@/components/Finances";
+import Finances from "@/ui/components/Finances";
 import Link from "next/link";
 import Image from "next/image";
-import HeroSection from "@/components/HeroSection";
+import HeroSection from "@/ui/components/HeroSection";
 
 export default function Donate() {
     return (

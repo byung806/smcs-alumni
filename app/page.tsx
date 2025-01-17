@@ -1,5 +1,5 @@
-import HeroSection from "@/components/HeroSection";
-import Content from "@/components/Content";
+import HeroSection from "@/ui/components/HeroSection";
+import Content from "@/ui/components/Content";
 import Link from "next/link";
 
 export default function Home() {
