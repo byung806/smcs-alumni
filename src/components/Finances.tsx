@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+import { basePath } from '../../next.config';
 
 export default function Finances() {
     return (
@@ -14,7 +15,7 @@ export default function Finances() {
                         <Image
                             width={100}
                             height={100}
-                            src="/wire.png"
+                            src={`${basePath}/wire.png`}
                             alt="Wire money address"
                         />
                     </div>
@@ -28,7 +29,7 @@ export default function Finances() {
                         <Image
                             width={100}
                             height={100}
-                            src="/link.png"
+                            src={`${basePath}/link.png`}
                             alt="Donation widget"
                         />
                     </div>

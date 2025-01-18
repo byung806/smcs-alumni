@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-    basePath: "",
+    basePath: "smcs-alumni",
     output: "export",  // <=== enables static exports
     reactStrictMode: true,
     images: { unoptimized: true }
